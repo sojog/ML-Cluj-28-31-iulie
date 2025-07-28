@@ -1,0 +1,33 @@
+# %% [markdown]
+# # Python  - interpretat, loosly typed
+
+# %%
+x = 10
+print(x, type(x))
+
+# %%
+x = True
+print(x, type(x))
+
+# %%
+x = 10.3
+print(x, type(x))
+
+# %%
+x = "Hello"
+print(x, type(x))
+
+# %%
+x = None
+print(x, type(x))
+
+# %% [markdown]
+# # declararea si initializarea sunt in acelasi timp
+
+# %%
+y
+
+# %%
+
+
+
