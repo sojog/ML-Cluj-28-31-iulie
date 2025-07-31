@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Greutate <= -0.166\ngini = 0.5\nsamples = 24\nvalue = [12, 12]\nclass = male"] ;
+1 [label="gini = 0.0\nsamples = 12\nvalue = [0, 12]\nclass = female"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 12\nvalue = [12, 0]\nclass = male"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
